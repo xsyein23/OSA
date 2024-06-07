@@ -1,0 +1,10 @@
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.carousel-inner > .carousel-item {
+    display: flex;
+    flex: 1 0 33.3333%;
+    align-items: center;
+}

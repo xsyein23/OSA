@@ -1,0 +1,28 @@
+/* #myCarousel {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    max-height: 700px;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+} */
+
+
+#myCarousel {
+    max-width: 100%;
+    /* Ensure carousel doesn't exceed parent container */
+}
+
+#myCarousel .carousel-inner .carousel-item img button{
+    width: 100%;
+    height: auto;
+    /* Ensure images maintain aspect ratio */
+}
